@@ -128,7 +128,7 @@ This ensures that only the routed components (Home, Register) are shown, keeping
 ---
 ## 🚀 How to Run the Project
 
-- Download the project in `C:\Users\user\Downloads` and extract it.
+- Download the project and place it in `C:\Users\user\Downloads` and extract it.
 -Then first Run the backend and after that run the frontend.
 
 ### 🖥️ Running the Backend
@@ -136,7 +136,8 @@ This ensures that only the routed components (Home, Register) are shown, keeping
 - Test endpoints with Swagger (usually at https://localhost:port/swagger).
 
 ### 🌐 Running the Frontend
-- cd auth-project
+- cd C:\Users\user\Downloads\Basic-login-register-project-Frontend-Backend--main\Basic-login-register-project-Frontend-Backend--main\user-auth-frontend>
+- npm install
 - ng serve
 - Open your browser and go to http://localhost:4200
 
