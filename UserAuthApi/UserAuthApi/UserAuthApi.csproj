@@ -16,4 +16,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Copy SourceFiles="..\..\Database\UserAuthDb.mdf"
+        DestinationFolder="$(OutDir)" />
+  </Target>
+
 </Project>
