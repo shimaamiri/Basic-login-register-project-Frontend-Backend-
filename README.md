@@ -128,6 +128,9 @@ This ensures that only the routed components (Home, Register) are shown, keeping
 ---
 ## 🚀 How to Run the Project
 
+- Download the project in `C:\Users\user\Downloads` and extract it.
+-Then first Run the backend and after that run the frontend.
+
 ### 🖥️ Running the Backend
 - Press F5 or click Run to start the backend API 
 - Test endpoints with Swagger (usually at https://localhost:port/swagger).
